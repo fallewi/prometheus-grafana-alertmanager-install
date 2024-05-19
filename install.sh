@@ -41,7 +41,6 @@ systemctl enable --now node-exporter.service
 
 # start grafana
 systemctl enable --now grafana-server.service
-systemctl status grafana-server.service
 
 
 # print access
