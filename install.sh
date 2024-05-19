@@ -2,7 +2,7 @@
 
 wget https://github.com/prometheus/prometheus/releases/download/v2.48.1/prometheus-2.48.1.linux-amd64.tar.gz
 wget https://github.com/prometheus/node_exporter/releases/download/v1.7.0/node_exporter-1.7.0.linux-amd64.tar.gz
-tar xvf prometheus
+tar xvf prometheus-2.48.1.linux-amd64.tar.gz
 cd prometheus-2.48.1.linux-amd64/
 sudo groupadd --system prometheus
 sudo useradd --system -s /sbin/nologin -g prometheus prometheus
